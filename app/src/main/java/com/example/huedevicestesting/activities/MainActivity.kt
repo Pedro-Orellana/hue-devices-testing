@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         drawerLayout = findViewById(R.id.main_drawer_layout)
         navigationView = findViewById(R.id.main_navigation_view)
 
-        val appBarConfiguration = AppBarConfiguration(setOf(R.id.homeFragment, R.id.testFragment),drawerLayout)
+        val appBarConfiguration = AppBarConfiguration(setOf(R.id.homeFragment, R.id.testFragment, R.id.noCoroutinesTestFragment),drawerLayout)
 
         toolbar = findViewById(R.id.main_toolbar)
         navHostFragment = supportFragmentManager.findFragmentById(R.id.main_nav_host_fragment) as NavHostFragment

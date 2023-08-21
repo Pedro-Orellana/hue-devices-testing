@@ -14,5 +14,23 @@
         android:id="@+id/testFragment"
         android:name="com.example.huedevicestesting.fragments.TestFragment"
         android:label="fragment_test"
-        tools:layout="@layout/fragment_test" />
+        tools:layout="@layout/fragment_test" >
+        <action
+            android:id="@+id/action_testFragment_to_userDetailsFragment"
+            app:destination="@id/userDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/noCoroutinesTestFragment"
+        android:name="com.example.huedevicestesting.fragments.NoCoroutinesTestFragment"
+        android:label="fragment_no_coroutines_test"
+        tools:layout="@layout/fragment_no_coroutines_test" >
+        <action
+            android:id="@+id/action_noCoroutinesTestFragment_to_userDetailsFragment"
+            app:destination="@id/userDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userDetailsFragment"
+        android:name="com.example.huedevicestesting.fragments.UserDetailsFragment"
+        android:label="fragment_user_details"
+        tools:layout="@layout/fragment_user_details" />
 </navigation>

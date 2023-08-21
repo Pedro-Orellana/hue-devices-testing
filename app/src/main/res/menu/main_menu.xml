@@ -13,6 +13,11 @@
         android:icon="@drawable/ic_launcher_foreground"
         />
 
+    <item
+        android:id="@+id/noCoroutinesTestFragment"
+        android:title="Users with no coroutines"
+        android:icon="@drawable/ic_launcher_foreground"/>
+
 
 
 </menu>

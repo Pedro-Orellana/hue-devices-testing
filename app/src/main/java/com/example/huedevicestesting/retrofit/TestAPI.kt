@@ -1,6 +1,7 @@
 package com.example.huedevicestesting.retrofit
 
 import retrofit2.Call
+import retrofit2.Response
 import retrofit2.http.GET
 
 interface TestAPI {
@@ -10,4 +11,5 @@ interface TestAPI {
 
     @GET("/users")
     fun getUsersWithoutCoroutines() : Call<List<User>>
+
 }

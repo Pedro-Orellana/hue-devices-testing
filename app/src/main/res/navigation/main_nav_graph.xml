@@ -10,4 +10,9 @@
         android:name="com.example.huedevicestesting.fragments.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="com.example.huedevicestesting.fragments.TestFragment"
+        android:label="fragment_test"
+        tools:layout="@layout/fragment_test" />
 </navigation>
